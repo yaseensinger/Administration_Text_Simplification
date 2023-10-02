@@ -29,8 +29,9 @@ You can use the Excel file to compare the performance of different models and to
 
 To use the code, follow these steps:
 
-1. Clone the repository.
-2. Install the required dependencies:
+1. This project was developed using Google Colab due to its convenient cloud-based platform, providing access to GPU resources for efficient natural language processing tasks.
+2. Clone the repository.
+3. Install the required dependencies:
 
 Use code with caution. Learn more
 pip install requirements.txt
@@ -44,13 +45,7 @@ model = Seq2SeqModel(
     encoder_decoder_name="facebook/bart-base",
     args= model_args )
 ```
-4. Run the code:
 
-```python
-python main.py
-```
-
-The code will train and evaluate the model, and save the results to the `results` directory.
 
 **Notes**
 
